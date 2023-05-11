@@ -1,0 +1,184 @@
+<div class="main">
+  <div class="nav-left">
+    <div class="nav-menu">
+      <div class="nav-icons">
+        <nav>
+          <a href="#" class="nav-menu-a">
+            <img [src]="home" class="nav-left-icons">
+            <p>Home</p>
+          </a>
+          <a href="#" class="nav-menu-a">
+            <img [src]="search" class="nav-left-icons">
+            <p>Search</p>
+          </a>
+          <a href="#" class="nav-menu-a">
+            <img [src]="explore" class="nav-left-icons">
+            <p>Explore</p>
+          </a>
+          <a href="#" class="nav-menu-a">
+            <img [src]="reels" class="nav-left-icons">
+            <p>Reels</p>
+          </a>
+          <a href="#" class="nav-menu-a">
+            <img [src]="messenger" class="nav-left-icons">
+            <p>Messages</p>
+          </a>
+          <a href="#" class="nav-menu-a">
+            <img [src]="heart" class="nav-left-icons">
+            <p>Notifications</p>
+          </a>
+          <a href="#" class="nav-menu-a">
+            <img [src]="create" class="nav-left-icons">
+            <p>Create</p>
+          </a>
+          <a href="#" class="nav-menu-a">
+            <img [src]="navUser" class="nav-left-icons">
+            <p>Profile</p>
+          </a>
+          <a href="#" class="nav-menu-a-more">
+            <img [src]="more" class="nav-left-icons">
+            <p>More</p>
+          </a>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="fotot">
+    <div class="f1">
+      <img [src]="img1" alt="" width="450" height="450">
+      <div class="activity">
+        <span title="Like">
+          <mat-icon appBgcolor style="cursor: pointer;">favorite</mat-icon>
+        </span>
+        <span title="Comment">
+          <mat-icon style="cursor: pointer;">comment</mat-icon>
+        </span>
+        <span title="Share Post">
+          <mat-icon style="cursor: pointer;">share</mat-icon>
+        </span>
+        <div class="save">
+          <span title="Save">
+            <mat-icon style="cursor: pointer;">bookmark</mat-icon>
+          </span>
+        </div>
+      </div>
+      <p class="likes" style="cursor: pointer;">
+        45 likes
+      </p>
+      <p class="allComments" style="cursor: pointer;">
+        View All comments
+      </p>
+      <input type="text" placeholder="Add a comment ..." class="comment">
+    </div>
+    <div class="f2">
+      <img [src]="img2" alt="" width="450" height="450">
+      <div class="activity">
+        <span title="Like">
+          <mat-icon appBgcolor style="cursor: pointer;">favorite</mat-icon>
+        </span>
+        <span title="Comment">
+          <mat-icon style="cursor: pointer;">comment</mat-icon>
+        </span>
+        <span title="Share Post">
+          <mat-icon style="cursor: pointer;">share</mat-icon>
+        </span>
+        <div class="save">
+          <span title="Save">
+            <mat-icon style="cursor: pointer;">bookmark</mat-icon>
+          </span>
+        </div>
+      </div>
+      <p class="likes" style="cursor: pointer;">
+        40 likes
+      </p>
+      <p class="allComments" style="cursor: pointer;">
+        View All comments
+      </p>
+      <input type="text" placeholder="Add a comment ..." class="comment">
+    </div>
+    <div class="f3">
+      <img [src]="img3" alt="" width="450" height="450">
+      <div class="activity">
+        <span title="Like">
+          <mat-icon appBgcolor style="cursor: pointer;">favorite</mat-icon>
+        </span>
+        <span title="Comment">
+          <mat-icon style="cursor: pointer;">comment</mat-icon>
+        </span>
+        <span title="Share Post">
+          <mat-icon style="cursor: pointer;">share</mat-icon>
+        </span>
+        <div class="save">
+          <span title="Save">
+            <mat-icon style="cursor: pointer;">bookmark</mat-icon>
+          </span>
+        </div>
+      </div>
+      <p class="likes" style="cursor: pointer;">
+        42 likes
+      </p>
+      <p class="allComments" style="cursor: pointer;">
+        View All comments
+      </p>
+      <input type="text" placeholder="Add a comment ..." class="comment">
+    </div>
+    <div class="f4">
+      <img [src]="img4" alt="" width="450" height="450">
+      <div class="activity">
+        <span title="Like">
+          <mat-icon appBgcolor style="cursor: pointer;">favorite</mat-icon>
+        </span>
+        <span title="Comment">
+          <mat-icon style="cursor: pointer;">comment</mat-icon>
+        </span>
+        <span title="Share Post">
+          <mat-icon style="cursor: pointer;">share</mat-icon>
+        </span>
+        <div class="save">
+          <span title="Save">
+            <mat-icon style="cursor: pointer;">bookmark</mat-icon>
+          </span>
+        </div>
+      </div>
+      <p class="likes" style="cursor: pointer;">
+        50 likes
+      </p>
+      <p class="allComments" style="cursor: pointer;">
+        View All comments
+      </p>
+      <input type="text" placeholder="Add a comment ..." class="comment">
+    </div>
+  </div>
+  <div class="nav-right">
+    <img [src]="navUser" class="user-pic" (click)="toggleMenu()">
+    <div class="sub-menu-wrap" id="subMenu">
+      <div class="sub-menu">
+        <div class="user-info">
+          <img [src]="navUser">
+          <h3>Bleron Rraci</h3>
+        </div>
+        <hr>
+        <a href="#" class="sub-menu-link">
+          <img [src]="menuProfile">
+          <p>Edit Profile</p>
+          <span>></span>
+        </a>
+        <a href="#" class="sub-menu-link">
+          <img [src]="menuSetting">
+          <p>Settings and Privacy</p>
+          <span>></span>
+        </a>
+        <a href="#" class="sub-menu-link">
+          <img [src]="menuHelp">
+          <p>Help & Support</p>
+          <span>></span>
+        </a>
+        <a href="#" class="sub-menu-link">
+          <img [src]="menuLogout">
+          <p>Logout</p>
+          <span>></span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,143 @@
+.class7{
+    border-radius: 5px;
+    border-color: rgb(177, 177, 177) ;
+    display: flex;
+    justify-content: center;
+}
+#signup{
+    cursor: pointer;
+    background-color: rgb(39, 219, 39);
+    font-weight: bolder;
+    color: white;
+    font-family: monospace;
+    font-size: x-large;
+    border: none;
+    border-radius: 10px;
+    height: 60px;
+    width: 150px;
+
+}
+#emri{
+    margin-right: 5px;
+    padding: 5px;
+}
+#mbiemri{
+    margin-left: 5px;
+    padding: 5px;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.P {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.em1{
+    width: 100%;
+    width: -webkit-fill-available;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+    height: 30px;
+    font-weight:600;
+}
+.em2{
+    border: 1px solid rgb(0, 0, 0);
+    width: 100%;
+    width: -webkit-fill-available;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    height: 30px;
+    font-weight:600;
+}
+::placeholder {
+    color: black;
+}
+.name-field{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.name-field .name{
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 30px;
+    font-weight:600;
+}
+.name-field .surname{
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 30px;
+    font-weight:600;
+}
+.pw{
+    width: 100%;
+    width: -webkit-fill-available;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 3px;
+    background: white;
+    height: 35px;
+    font-weight:600;
+}
+  #date{
+    border: 1px solid #000000;
+    background: none;
+    margin: 20px auto;
+    padding: 15px 45px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+    text-align: center;   
+    background-color: white;
+    cursor: pointer;
+  }
+  #date::placeholder{
+    color: rgb(0, 0, 0);
+  }
+.pBox{
+    
+    width: -webkit-fill-available;
+  }
+.genBox{
+    display: flex;
+    width: -webkit-fill-available;
+    margin-bottom: 50px;
+  }
+.opt1{
+    background-color: white;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.opt2{
+    background-color: white;
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.opt3{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.G{
+    display: flex;
+    width: 119px;
+    height: 41px;
+    align-items: center;
+    margin-left: 5px;
+    font-weight: 500;
+}
+.r{
+    margin-left: auto;
+}
